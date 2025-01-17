@@ -166,7 +166,7 @@ const Form = () => {
                 <Select
                   id="courses"
                   options={courseOptions}
-                  isMulti={false}
+                  isMulti={true}
                   isSearchable={true}
                   value={course}
                   onChange={(selectedOption) => setCourse(selectedOption)}
